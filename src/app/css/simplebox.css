@@ -1,0 +1,60 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  opacity: 1;
+}
+
+.box1 {
+  background-color: #4635B1;
+}
+
+.box2 {
+  background-color: #B771E5;
+}
+
+.box3 {
+  background-color: #AEEA94;
+}
+
+.box4 {
+  background-color: #FFFBCA;
+}
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 16px;
+  width: 650px;
+}
+
+#demo {
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}

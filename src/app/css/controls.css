@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+button {
+    text-transform: none;
+    margin: 0.25rem;
+}
+
+/* .nav.light {
+    padding-top: 2rem;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+} */
+
+
+
+.flair {    
+    background-color: #E4F1FF;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    opacity: 1;
+}
+
+
+.container {
+
+    position: relative;
+}
+
+.nav {
+    width: 800px;
+    height: 80px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2cm;
+    color: rgb(255, 255, 255);
+}
